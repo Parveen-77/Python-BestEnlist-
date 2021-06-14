@@ -55,7 +55,7 @@ def onClick():
     tkinter.messagebox.showinfo("Welcome", "Submitted  Successfully :)")
 
 
-# Create a Button
+# Creating a Button
 Button(window, text="Submit", command=onClick, width=40, bg='deep pink4', fg='white').place(x=100, y=450)
 
 
