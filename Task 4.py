@@ -1,13 +1,13 @@
 # create three variables with same value
 
-a = b = c = 20
+a = b = c = 25
 
 # divide a by 10
 divi = a/5
 print(int(divi))
 
 # multiply b by 50
-mul = b * 30
+mul = b * 40
 print(mul)
 
 # add c value by 60
