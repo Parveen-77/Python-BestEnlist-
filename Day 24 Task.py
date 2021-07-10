@@ -15,7 +15,7 @@ import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Bhuv@n@123",
+    password="pk@123",
 
 )
 mycursor=mydb.cursor()
@@ -33,7 +33,7 @@ import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Bhuv@n@123",
+    password="pk@123",
     database="json_records"
 
 )
@@ -64,7 +64,7 @@ json_list_of_transactions = [
 json_list_of_transactions_dump=json.dumps(json_list_of_transactions)
 db = mysql.connect(
     user='root',
-    password='Bhuv@n@123',
+    password='pk@123',
     host='localhost',
     database='json_records')
 
